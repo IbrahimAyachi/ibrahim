@@ -1,0 +1,11 @@
+No.,Code a barre,Nom,image,Description,Quantité,Prix unitaire/DT
+4,1234567890123,Tomate,tomate.jpg,Légumes,10,100
+5,9876543210987,Fromage,fromage.jpg,Produits laitiers,5,150
+6,1122334455667,Riz,riz.jpg,céréales,20,200
+7,2233445566778,Huile d'olive,huile d'olive.jpg,huiles,15,250
+8,3344556677889,Yaourt,yaourt.jpg,produits laitiers,8,120
+9,5558741255515,Chocolat,chocolat.jpg,Confiserie,6,16
+10,619181896,Café,café.jpg,Boissons,7,8
+11,987545461,Poisson,poisson.jpg,viande,5,20
+12,856223226,Pain,pain.jpg,Boulangerie,1,8
+13,454345445,Pomme,pomme.jpg,Fruits,7,4

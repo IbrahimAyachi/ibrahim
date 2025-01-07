@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section de recherche et filtrage */
+.search-filter-container h2 {
+    background-color: #1f3a52;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.search-filter-container h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Bouton Ajouter un Produit */
+.add-Product button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-Product button:hover {
+    background-color: #218838;
+}
+
+/* Section Upload CSV */
+.upload-csv {
+    margin-top: 20px;
+}
+
+.upload-csv label {
+    font-size: 16px;
+    color: #fff;
+}
+
+.upload-csv input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.upload-csv button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-csv button:hover {
+    background-color: #0056b3;
+}
+
+/* Tableau de produits */
+.product-liste table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-liste th, .product-liste td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.product-liste th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.product-liste tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.product-liste tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Bouton Edit et Delete dans le tableau (facultatif) */
+.action-button {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.action-button img {
+    width: 20px;
+    height: 20px;
+}
+.image {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius:50% ;
+    object-fit: cover;
+    border: 1px solid black;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.prix {
+    display:flex;
+    margin-right:25px;
+    flex-direction: row;
+    height: 100%;
+
+}
+.prix-container{
+    display: flex;
+    align-items: center;
+    margin-right:25px;
+
+}
